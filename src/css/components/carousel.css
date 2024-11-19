@@ -52,6 +52,15 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 .carousel__button--prev {
   /* Fait pivoter le bouton de 180 degrés - https://developer.mozilla.org/fr/docs/Web/CSS/transform */
   transform: rotate(180deg);
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+}
+
+.carousel__button--next {
+  position: absolute;
+  right: 100px;
+  bottom: 20px;
 }
 
 .carousel__container {
