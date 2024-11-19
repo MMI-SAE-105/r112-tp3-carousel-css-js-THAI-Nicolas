@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : THAI
+- prénom : Nicolas
+- URL Netlify : https://velvety-selkie-eb3381.netlify.app/
 
 # Travail
 
