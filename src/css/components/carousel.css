@@ -46,7 +46,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Bordure solide de 1px - https://developer.mozilla.org/fr/docs/Web/CSS/border */
   border: solid 1px;
   /* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
-  border-radius: 32px;
+  border-radius: 50%;
 }
 
 .carousel__button--prev {
@@ -66,6 +66,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Marge négative à droite pour coller le carousel au bord de l'écran -24px - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
   margin-right: -24px;
   /* Définit le type de défilement pour accrocher les éléments - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
+  scroll-snap-type: x mandatory;
 }
 
 .carousel__item {
